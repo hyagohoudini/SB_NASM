@@ -21,8 +21,9 @@ for:
 	@ ./$(FILE)/program || true;
 
 hello:
-	@ nasm -f elf64 $(FILE)/$(FILE).asm -o $(FILE)/$(FILE).o;
-	@ $(CC) -no-pie $(FILE)/main.c $(FILE)/$(FILE).o -o $(FILE)/program;
+	@ nasm -f elf64 $(FILE)/ABS.asm -o $(FILE)/ABS.o;
+	@ nasm -f elf64 $(FILE)/SQUARE.asm -o $(FILE)/SQUARE.o;
+	@ $(CC) -no-pie $(FILE)/main.c $(FILE)/*.o -o $(FILE)/program;
 	@ ./$(FILE)/program || true;
 
 clean:

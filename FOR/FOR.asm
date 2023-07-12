@@ -93,7 +93,7 @@ main:
         add eax, dword [i]            ;      res = i + j;
         add eax, dword [j]            ;
         add dword [res], eax          ;
-    end_for                           ; }
+    end_for                          ; }
     
     print_res dword [res]   ; printf("res = %d\n", res)
     print_new_line          ; printf("\n");
