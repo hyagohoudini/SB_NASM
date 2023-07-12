@@ -23,14 +23,18 @@ git clone https://github.com/hyagohoudini/SB_NASM.git
   ```
   make FILE=FOR
   ```
-- Para rodar a parte 2 - montador:
+- Para rodar a parte 2 - montador ***->legado***:
   ```
     make FILE=HELLO
+  ```
+- Para rodar a nova parte 2 - montador:
+  ```
+    make FILE=MATH
   ```
 
 - Para limpas objetos e saídas anteriores
   ```
-  make clean FILE=***FOR/HELLO***
+  make clean FILE=***FOR/HELLO/MATH***
   ```
 
   **IMPORTANTE QUE NÃO HAJA MUDANÇA NOS DIRETÓRIOS PARA UM BOM FUNCIONAMENTO DO PROGRAMA**
