@@ -2,7 +2,12 @@
 
 ### Matrículas/Alunos:
 
-- 170105067 Hyago Gabriel Oliveira Figueiredo
+- Bruno Berto de Oliveira Ribeiro - 200061089
+- Hyago Gabriel Oliveira Figueiredo - 170105067
+- André Larrosa Chimpliganond - 190010321
+- Jefte Augusto Gomes Batista - 180057570
+- Gabriel Henrique Barbosa de Oliveira - 231029583
+
 
 ### Clonar repo:
 
